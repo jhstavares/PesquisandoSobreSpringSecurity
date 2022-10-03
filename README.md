@@ -3,16 +3,18 @@
 # PesquisaSpringSecurity
 
 ## O que é o Spring Security? ##
+
 Spring Security é uma estrutura de autenticação e controle de acesso.
 É o um padrão para proteger aplicativos baseados em Spring.
 
-Spring Security é uma estrutura que se concentra em fornecer autenticação e
-autorização para aplicativos Java.
+Spring Security é uma estrutura que se concentra em fornecer autenticação e autorização para 
+aplicativos Java.
 
 ANÁLISE PESSOAL:
 
 Spring Security: É uma ferramente do SPRING  que serve para autenticar e controlar o acesso dos usuários nas páginas webs,
 manipulação da mesma ou, em determindo projetado. Onde só será possível alterar o projeto, caso confirme sua autentificação.
+_________________________________________________________________________________________________________________________________
 
 ## Como implementar o Spring Security dentro da API? ##
 Para habilitar o Spring Security em um projeto, é necessário, além  de criar dependências, criar também a classe de configuração.
@@ -24,6 +26,7 @@ DEPENDÊNCIA:
 		<groupld>org.springframework.boot</groupld>
 		<artifactld>spring-boot-starter-security</artifactld>
 	</dependency>
+
 
 EXEMPLO DE CONFIGURAÇÃO:
 
@@ -63,7 +66,7 @@ ANÁLISE PESSOAL:
 
 Só é possível usar o método Security em um projeto, depois, que colocar suas dependências e criar a classe de configurações.
 Para que o projeto esteja  realmente seguro.
-
+__________________________________________________________________________________________________________________________________
 ## O que é JWT? ##
 
 Um JWT é um padrão para autenticação e troca de informações definido pela RFC7519. Nele é possível armazenar de forma segura e
@@ -75,6 +78,7 @@ entre diferentes aplicações. Os dados nele contidos podem ser validados a qualqu
 
 ANÁLISE PESSOAL:
 O usuário só cosegueria acessar ou fazer alteração, depois de algumas confirmações, geradas pelo token.
+____________________________________________________________________________________________________________________________________
 
 ## Como implementar o JWT? ##
 
@@ -82,6 +86,7 @@ No processo de autorização do JWT, o front-end (o cliente primeiramente envia al
 (nome de usuário e senha). O servidor (a aplicação com Spring) em seguida, verifica essas credenciais.
 
 ANÁLISE PESSOAL: Como dito acima, seria uma forma de validação de dados.
+____________________________________________________________________________________________________________________________________
 
 ## O que é criptografia? ##
 
@@ -90,6 +95,7 @@ compreendê-la. É utilizada em comunicações digitais, como na troca de mensagens 
 
 ANÁLISE PESSOAL:
 É uma chave de segurança para proteger uma informação.
+_______________________________________________________________________________________________________________________________________
 
 ## O que é BCryptPasswordEncoder? ##
 
@@ -99,7 +105,7 @@ O Bcrypt oferece uma maior segurança do que os outros algoritmos criptográficos 
 ANÁLISE PESSOAL:
 Técnicas pensadas para proteger uma informação de forma mais segura. Pois o mesmo é do tipo alfo-numérico.
 EX: 123abc
-
+_________________________________________________________________________________________________________________________________________________
 
 ## Qual a diferença entre autenticação e autorização de acesso? ##
 
