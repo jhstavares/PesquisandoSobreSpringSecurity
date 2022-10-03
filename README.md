@@ -1,7 +1,5 @@
 # PesquisandoSobreSpringSecurity
 
-# PesquisaSpringSecurity
-
 ## O que é o Spring Security? ##
 
 Spring Security é uma estrutura de autenticação e controle de acesso.
