@@ -1,5 +1,7 @@
 # PesquisandoSobreSpringSecurity
 
+# PesquisaSpringSecurity
+
 ## O que é o Spring Security? ##
 Spring Security é uma estrutura de autenticação e controle de acesso.
 É o um padrão para proteger aplicativos baseados em Spring.
@@ -7,7 +9,7 @@ Spring Security é uma estrutura de autenticação e controle de acesso.
 Spring Security é uma estrutura que se concentra em fornecer autenticação e
 autorização para aplicativos Java.
 
-Análise pessoal:
+ANÁLISE PESSOAL:
 
 Spring Security: É uma ferramente do SPRING  que serve para autenticar e controlar o acesso dos usuários nas páginas webs,
 manipulação da mesma ou, em determindo projetado. Onde só será possível alterar o projeto, caso confirme sua autentificação.
@@ -101,12 +103,12 @@ EX: 123abc
 
 ## Qual a diferença entre autenticação e autorização de acesso? ##
 
-# AUTENTIFICAÇÃO:
+# Autentificação
 verifica a identidade digital do usuário, ou seja, processo de verificação de uma identidade. É quando o usuário prova de fato quem ele é.
 
 EXEMPLO: Ao logar-se em qualquer sistema que necessite deste procedimento, o usuário está passando por um processo de autenticação.
 
-# AUTORIZAÇÃO
+# Autorização
 é o processo que ocorre após ser validada a autenticação. Diz respeito aos privilégios que são concedidos a determinado usuário ao utilizar
 uma aplicação.
 
@@ -121,4 +123,3 @@ Já  funcionário que trabalha, por exemplo, no setor de RH, não terá acesso aos m
 necessários para realização do seu trabalho.
 
 Como: cadastro de funcionários, histórico de salários e benefícios, cadastro de cargos, controle de exames médicos.
-
